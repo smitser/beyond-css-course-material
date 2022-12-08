@@ -1,0 +1,37 @@
+body {
+  margin: 4rem;
+  font-size: 1.25rem;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn__primary {
+  background: hsl(206deg, 33%, 37%);
+}
+.btn__primary:hover, .btn__primary:focus {
+  background: hsl(206deg, 33%, 25%);
+}
+.btn__secondary {
+  background: hsl(253deg, 27%, 35%);
+}
+.btn__secondary:hover, .btn__secondary:focus {
+  background: hsl(253deg, 27%, 20%);
+}
+.btn__accent {
+  background: hsl(45deg, 82%, 65%);
+  color: black;
+}
+.btn__accent:hover, .btn__accent:focus {
+  background: hsl(45deg, 82%, 45%);
+}
+
+/*# sourceMappingURL=styles.css.map */
